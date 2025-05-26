@@ -19,12 +19,6 @@ parameters:
     bitbag_es_excluded_facet_attributes: []
     bitbag_es_excluded_facet_options: []
 
-fos_elastica:
-    clients:
-        default:
-            host: "%bitbag_es_host%"
-            port: "%bitbag_es_port%"
-
 twig:
     globals:
         bitbag_es_pagination_available_page_limits: "%bitbag_es_pagination_available_page_limits%"
